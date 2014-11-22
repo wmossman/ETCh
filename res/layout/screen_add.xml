@@ -1,0 +1,37 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+	android:layout_width="fill_parent"
+	android:layout_height="fill_parent"
+	android:id="@+id/popup_add"
+	android:padding="10sp"
+	
+	android:background="@drawable/custom_popup"
+	android:orientation="vertical"
+	android:gravity="center">
+<!--  android:background="#0C1117"-->
+    <ImageView
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:src="@drawable/ic_action_add_person" />
+	<EditText
+        android:id="@+id/editor_add"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="5sp"
+        android:ems="14"
+        android:hint="@string/action_add" 
+        android:textColor="@android:color/white"
+        android:textCursorDrawable="@null">
+
+        <requestFocus />
+	</EditText>
+
+	<Button
+	    android:id="@+id/button_add"
+	    android:layout_width="102sp"
+	    android:layout_height="wrap_content"
+	    android:text="@string/button_add"
+	    
+	    android:textColor="@android:color/white" />
+
+</LinearLayout>

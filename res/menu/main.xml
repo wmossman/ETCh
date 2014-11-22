@@ -1,0 +1,28 @@
+
+
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+      xmlns:app="http://schemas.android.com/apk/res-auto"
+      xmlns:tools="http://schemas.android.com/tools"
+      tools:context="com.example.etch.MessageActivity" >
+    <item android:id="@+id/action_friends"
+          android:icon="@drawable/ic_action_group"
+          android:title="@string/action_friends"
+          app:showAsAction="always"  />
+    <item android:id="@+id/action_add"
+          android:icon="@drawable/ic_action_add_person"
+          android:title="@string/action_add"
+          app:showAsAction="always"  />
+    <item android:id="@+id/action_discard"
+          android:icon="@drawable/ic_action_discard"
+          android:title="@string/action_discard"
+          app:showAsAction="ifRoom"  />
+    <item android:id="@+id/action_logout"
+          android:icon="@drawable/ic_action_secure"
+          android:title="@string/action_logout"
+          app:showAsAction="ifRoom"  />
+    <item android:id="@+id/action_unfriend_all"
+          android:title="@string/action_unfriend_all"
+          app:showAsAction="never"  />
+    
+    
+</menu>
